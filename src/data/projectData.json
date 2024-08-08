@@ -28,7 +28,7 @@
       "name": " Convo App",
       "description": "This app allows users to convert Word documents (.doc, .docx )into PDF format effortlessly.",
       "skills": ["Express", "Nodejs", "Reactjs"],
-      "image": "/src/assets/ConvoImage.png",
+      "image": "https://www.ilovepdf.com/img/ilovepdf/social/en-US/wordpdf.png",
       "github": "https://github.com/sharmadivay/ConvoApp.git",
       "deploy": "https://another-project.com"
     },
