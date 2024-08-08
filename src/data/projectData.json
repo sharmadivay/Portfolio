@@ -3,7 +3,7 @@
       "name": "Ecommerce_Clone",
       "description": "This project showcases my skills in React and Tailwind CSS. It's a responsive web application with modern features.",
       "skills": ["React", "Tailwind CSS", "Node.js"],
-      "image": "/src/assets/EcommerceImage.jpg",
+      "image": "https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2020/05/22052929/illustration-landing-pages-popular-e-commerce.jpg",
       "github": "https://github.com/sharmadivay/Ecommerce.git",
       "deploy": "https://my-awesome-project.com"
     },
@@ -12,7 +12,7 @@
       "name": "Text Utils",
       "description": "This application allows users to easily convert text to uppercase or lowercase, clear the input, and conveniently copy the modified text.",
       "skills": ["Reactjs", "Bootstrap", "JavaScript"],
-      "image": "/src/assets/TextImage.png",
+      "image": "https://plugins.jetbrains.com/files/17259/131103/icon/pluginIcon.png",
       "github": "https://github.com/sharmadivay/TextUtils.git",
       "deploy": "https://text-utils-blush.vercel.app/"
     },
@@ -20,7 +20,7 @@
       "name": " Todo List",
       "description": "The ToDo app is a user-friendly and efficient task management application designed to help users organize their daily activities. ",
       "skills": ["Reactjs", "Bootstrap", "JavaScript"],
-      "image": "/src/assets/TodoImage.png",
+      "image": "https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png",
       "github": "https://github.com/sharmadivay/TodoList.git",
       "deploy": "https://vercel.com/divays-projects/todo-list"
     },
@@ -36,7 +36,7 @@
       "name": "Simon Game",
       "description": "A application built with Html Css  and Javascript.",
       "skills": ["Html", "Css", "JavaScript"],
-      "image": "/src/assets/SimonImage.webp",
+      "image": "https://camo.githubusercontent.com/5b64d917b977bc5226008266733bcf350e52c9f32ad50ba067c2656ca28fddc1/68747470733a2f2f63616c65622d656c6c69732e6769746875622e696f2f6173736574732f696d672f73696d6f6e2e6a7067",
       "github": "https://github.com/sharmadivay/Simon-Game.git",
       "deploy": "https://divay-simon-game.netlify.app"
     }
