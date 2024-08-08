@@ -54,7 +54,7 @@ const About = () => {
           <div className="mt-30 hidden md:flex flex-col justify-end space-y-5">
             {[
               {
-                href: "https://www.instagram.com/divaysharma",
+                href: "https://www.instagram.com/divay._.sharma/",
                 icon: IoLogoInstagram,
               },
               {
