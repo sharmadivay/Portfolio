@@ -41,7 +41,7 @@ const About = () => {
   return (
     <div
       id="about"
-      className="min-h-screen flex justify-center items-center bg-[#1c2b5a]"
+      className="min-h-screen flex  justify-center items-center bg-[#1c2b5a]"
     >
       <motion.div
         initial="hidden"
@@ -49,9 +49,9 @@ const About = () => {
         variants={backgroundVariants}
         className="absolute top-0 left-0 h-full bg-[#1b2747] z-0"
       />
-      <div className="relative z-10 flex justify-center items-center w-full">
-        <div className="pt-10 ml-10 flex justify-center items-center space-x-10 w-[40%]">
-          <div className="mt-30 flex flex-col justify-end space-y-5">
+      <div className="relative z-10 flex flex-col md:flex-row justify-center items-center w-full">
+        <div className="pt-10 ml-10 flex justify-start md:justify-center items-center space-x-10 w-full md:w-[40%]">
+          <div className="mt-30 hidden md:flex flex-col justify-end space-y-5">
             {[
               {
                 href: "https://www.instagram.com/divaysharma",
@@ -85,7 +85,7 @@ const About = () => {
             </motion.div>
           </div>
         </div>
-        <div className="flex flex-col w-[60%] space-y-5 ml-[-5rem] mr-20 text-[#f6f6f8] ">
+        <div className="flex flex-col flex-wrap w-full ml-20  md:w-[60%] space-y-5 md:ml-[-5rem] mr-20 text-[#f6f6f8] ">
           <div className="text-md flex flex-col">
             <p className="text-md font-semibold">Hello, I&rsquo;m</p>
             <h1 className="text-6xl font-bold text-[#ff8500]">Divay</h1>
