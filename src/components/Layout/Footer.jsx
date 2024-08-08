@@ -38,7 +38,7 @@ const Footer = () => {
           <div className="w-full flex items-center space-x-5 justify-center space-y-5 bg-gray-800">
             {[
               {
-                href: "https://www.instagram.com/divaysharma",
+                href: "https://www.instagram.com/divay._.sharma/",
                 icon: IoLogoInstagram,
               },
               {
