@@ -1,10 +1,11 @@
 import { motion, useAnimation } from "framer-motion";
 import { useEffect, useRef } from "react";
 import { useInView } from "react-intersection-observer";
-import SkillCard from "../components/SkillCard";
-import skillsData from "../data/skillData.json";
 
-const Skills = () => {
+import skillsData from "../../data/skillData.json";
+import SkillCardPhone from "../../components/phone/SkillCardPhone";
+
+const SkillsPhone = () => {
   const mainControls = useAnimation();
   const categoryControls = useAnimation();
   const { ref, inView } = useInView({
@@ -32,7 +33,7 @@ const Skills = () => {
     if (scrollRefs[category].current) {
       const cardWidth = scrollRefs[category].current.children[0].clientWidth;
       scrollRefs[category].current.scrollBy({
-        left: -cardWidth * 2, // Scroll by the width of two cards
+        left: -cardWidth,
         behavior: "smooth",
       });
     }
@@ -42,7 +43,7 @@ const Skills = () => {
     if (scrollRefs[category].current) {
       const cardWidth = scrollRefs[category].current.children[0].clientWidth;
       scrollRefs[category].current.scrollBy({
-        left: cardWidth * 2, // Scroll by the width of two cards
+        left: cardWidth,
         behavior: "smooth",
       });
     }
@@ -60,17 +61,9 @@ const Skills = () => {
   };
 
   return (
-    <div id="skills" ref={ref} className="mx-5 mt-5 z-10">
+    <div id="skills" ref={ref} className="mx-2 mt-5 overflow-hidden">
       <motion.div
-        className="
-          bg-[#0c1327]
-          h-auto 
-          rounded-xl 
-          shadow-lg 
-          p-5 
-          text-white
-          overflow-hidden
-        "
+        className="bg-[#0c1327] h-auto rounded-xl shadow-lg p-4 text-white overflow-hidden"
         initial={{ x: "100vw", opacity: 0 }}
         animate={mainControls}
         variants={{
@@ -79,44 +72,44 @@ const Skills = () => {
         }}
         transition={{ type: "spring", stiffness: 50 }}
       >
-        <h1 className="text-3xl text-white mb-8 w-full flex items-center justify-center bg-[#0c1327]">
+        <h1 className="text-3xl text-white mb-4 w-full flex items-center justify-center bg-[#0c1327] ">
           Skills
         </h1>
-        <div className="flex flex-col items-center space-y-8 bg-transparent">
+        <div className="flex flex-col items-center space-y-6 bg-transparent">
           {Object.keys(skillsData).map((category, index) => (
             <motion.div
               key={category}
-              className="flex flex-col space-y-4 rounded-xl p-4 w-full border border-[#ff8500]"
+              className="flex flex-col space-y-3 rounded-lg p-3 w-full border border-[#ff8500] overflow-hidden"
               custom={index}
               initial="hidden"
               animate={categoryControls}
               variants={categoryVariants}
             >
-              <h2 className="text-2xl text-[#ff8500] mb-4 text-center">
+              <h2 className="text-2xl text-[#ff8500] mb-3 text-center">
                 {category}
               </h2>
-              <div className="flex items-center space-x-2">
+              <div className="flex items-center">
                 <button
-                  className="bg-[#ff8500] text-white py-2 px-4 rounded-full hover:bg-[#e67e00] transition duration-300"
+                  className="bg-[#ff8500] text-white py-1 px-3 rounded-full hover:bg-[#e67e00] transition duration-300"
                   onClick={() => scrollLeft(category)}
                 >
                   &lt;
                 </button>
                 <div
-                  className="flex overflow-x-auto space-x-4 w-full snap-x hide-scrollbar"
+                  className="flex overflow-x-auto w-full hide-scrollbar"
                   ref={scrollRefs[category]}
                 >
                   {skillsData[category].map((skill, index) => (
                     <div
                       key={index}
-                      className="flex-shrink-0 w-[calc(100%/2)] snap-start"
+                      className="flex-shrink-0 w-[calc(100%)] sm:w-[calc(100%/1.2)] md:w-[calc(100%/3)] snap-center"
                     >
-                      <SkillCard skill={skill} />
+                      <SkillCardPhone skill={skill} />
                     </div>
                   ))}
                 </div>
                 <button
-                  className="bg-[#ff8500] text-white py-2 px-4 rounded-full hover:bg-[#e67e00] transition duration-300"
+                  className="bg-[#ff8500] text-white py-1 px-3 rounded-full hover:bg-[#e67e00] transition duration-300"
                   onClick={() => scrollRight(category)}
                 >
                   &gt;
@@ -130,4 +123,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default SkillsPhone;

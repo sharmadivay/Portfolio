@@ -1,51 +1,45 @@
 [
     {
-      "name": "My Awesome Project",
+      "name": "Ecommerce_Clone",
       "description": "This project showcases my skills in React and Tailwind CSS. It's a responsive web application with modern features.",
       "skills": ["React", "Tailwind CSS", "Node.js"],
-      "image": "/path/to/image.jpg",
-      "github": "https://github.com/username/my-awesome-project",
+      "image": "/src/assets/EcommerceImage.jpg",
+      "github": "https://github.com/sharmadivay/Ecommerce.git",
       "deploy": "https://my-awesome-project.com"
     },
+   
     {
-      "name": "Another Project",
-      "description": "A full-stack application built with Express and MongoDB. It includes user authentication and a RESTful API.",
-      "skills": ["Express", "MongoDB", "JavaScript"],
-      "image": "/path/to/another-image.jpg",
-      "github": "https://github.com/username/another-project",
+      "name": "Text Utils",
+      "description": "This application allows users to easily convert text to uppercase or lowercase, clear the input, and conveniently copy the modified text.",
+      "skills": ["Reactjs", "Bootstrap", "JavaScript"],
+      "image": "/src/assets/TextImage.png",
+      "github": "https://github.com/sharmadivay/TextUtils.git",
+      "deploy": "https://text-utils-blush.vercel.app/"
+    },
+    {
+      "name": " Todo List",
+      "description": "The ToDo app is a user-friendly and efficient task management application designed to help users organize their daily activities. ",
+      "skills": ["Reactjs", "Bootstrap", "JavaScript"],
+      "image": "/src/assets/TodoImage.png",
+      "github": "https://github.com/sharmadivay/TodoList.git",
+      "deploy": "https://vercel.com/divays-projects/todo-list"
+    },
+    {
+      "name": " Convo App",
+      "description": "This app allows users to convert Word documents (.doc, .docx )into PDF format effortlessly.",
+      "skills": ["Express", "Nodejs", "Reactjs"],
+      "image": "/src/assets/ConvoImage.png",
+      "github": "https://github.com/sharmadivay/ConvoApp.git",
       "deploy": "https://another-project.com"
     },
     {
-      "name": "Cool Web App",
-      "description": "A single-page application with dynamic content and interactive elements. Built using Vue.js and Vuetify.",
-      "skills": ["Vue.js", "Vuetify", "JavaScript"],
-      "image": "/path/to/cool-web-app-image.jpg",
-      "github": "https://github.com/username/cool-web-app",
-      "deploy": "https://cool-web-app.com"
-    },
-    {
-      "name": " Awesome Project",
-      "description": "This project showcases my skills in React and Tailwind CSS. It's a responsive web application with modern features.",
-      "skills": ["React", "Tailwind CSS", "Node.js"],
-      "image": "/path/to/image.jpg",
-      "github": "https://github.com/username/my-awesome-project",
-      "deploy": "https://my-awesome-project.com"
-    },
-    {
-      "name": " Project",
-      "description": "A full-stack application built with Express and MongoDB. It includes user authentication and a RESTful API.",
-      "skills": ["Express", "MongoDB", "JavaScript"],
-      "image": "/path/to/another-image.jpg",
-      "github": "https://github.com/username/another-project",
-      "deploy": "https://another-project.com"
-    },
-    {
-      "name": "Cool  App",
-      "description": "A single-page application with dynamic content and interactive elements. Built using Vue.js and Vuetify.",
-      "skills": ["Vue.js", "Vuetify", "JavaScript"],
-      "image": "/path/to/cool-web-app-image.jpg",
-      "github": "https://github.com/username/cool-web-app",
-      "deploy": "https://cool-web-app.com"
+      "name": "Simon Game",
+      "description": "A application built with Html Css  and Javascript.",
+      "skills": ["Html", "Css", "JavaScript"],
+      "image": "/src/assets/SimonImage.webp",
+      "github": "https://github.com/sharmadivay/Simon-Game.git",
+      "deploy": "https://divay-simon-game.netlify.app"
     }
+   
   ]
   

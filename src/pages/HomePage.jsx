@@ -3,6 +3,10 @@ import Skills from "./Skills.jsx";
 import About from "./About.jsx";
 import Projects from "./Projexts.jsx";
 import Contact from "./Contact.jsx";
+import AboutPhone from "./Phone/AboutPhone.jsx";
+import SkillsPhone from "./Phone/SkillsPhone.jsx";
+import ProjectsPhone from "./Phone/ProjectsPhone.jsx";
+import Footer from "../components/Layout/Footer.jsx";
 
 const HomePage = () => {
   return (
@@ -17,12 +21,13 @@ const HomePage = () => {
           </div>
         </Layout>
       </div>
-      <div className="flex md:hidden relative">
-        <div className="min-h-screen">
-          <About />
-          <Skills />
-          <Projects />
+      <div className="flex  flex-col md:hidden relative">
+        <div className="flex flex-col min-h-screen">
+          <AboutPhone />
+          <SkillsPhone />
+          <ProjectsPhone />
           <Contact />
+          <Footer />
         </div>
       </div>
     </>

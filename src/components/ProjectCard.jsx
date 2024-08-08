@@ -7,21 +7,25 @@ const ProjectCard = ({ project }) => {
       <img
         src={project.image}
         alt={`${project.name} screenshot`}
-        className="w-full h-48 object-cover rounded-md mb-4"
+        className="w-full h-20   md:h-48 object-cover rounded-md mb-4"
       />
 
       {/* Project Name */}
-      <h2 className="text-2xl font-bold mb-2 text-[#00A7E1]">{project.name}</h2>
+      <h2 className="text-xl md:text-2xl font-bold mb-2 text-[#00A7E1] bg-[#1e2a38] over">
+        {project.name}
+      </h2>
 
       {/* Project Description */}
-      <p className="mb-4 text-sm">{project.description}</p>
+      <p className="mb-4  text-sm bg-[#1e2a38]">{project.description}</p>
 
       {/* Skills Used */}
-      <div className="mb-4 text-sm">
-        <span className="font-semibold">Skills Used:</span>
-        <ul className="list-disc list-inside ml-4">
+      <div className="mb-4 text-sm bg-[#1e2a38]">
+        <span className="font-semibold bg-[#1e2a38]">Skills Used:</span>
+        <ul className="list-disc list-inside ml-4 bg-[#1e2a38]">
           {project.skills.map((skill, index) => (
-            <li key={index}>{skill}</li>
+            <li key={index} className="bg-[#1e2a38]">
+              {skill}
+            </li>
           ))}
         </ul>
       </div>
