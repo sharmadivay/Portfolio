@@ -22,7 +22,7 @@
       "skills": ["Reactjs", "Bootstrap", "JavaScript"],
       "image": "https://w7.pngwing.com/pngs/670/265/png-transparent-checkmark-done-exam-list-pencil-todo-xomo-basics-icon-thumbnail.png",
       "github": "https://github.com/sharmadivay/TodoList.git",
-      "deploy": "https://vercel.com/divays-projects/todo-list"
+      "deploy": "https://divay-todo-app.netlify.app/"
     },
     {
       "name": " Convo App",
