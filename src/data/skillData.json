@@ -3,38 +3,39 @@
       {
         "name": "HTML",
         "level": "Expert",
-        "experience": "3 years",
+        "experience": "1 year",
         "skillsInAction": "Created semantic, accessible HTML structures for responsive websites, implemented forms and interactive elements, and ensured cross-browser compatibility."
       },
       {
         "name": "CSS",
         "level": "Intermediate",
-        "experience": "3 years",
+        "experience": "1 year",
+         
         "skillsInAction": "Designed and implemented responsive layouts, used advanced CSS techniques including Flexbox and Grid, and optimized styles for performance and cross-device consistency."
       },
       {
         "name": "JavaScript",
         "level": "Intermediate",
-        "experience": "2 years",
+        "experience": "1 year",
         "skillsInAction": "Built dynamic web applications, handled asynchronous operations with AJAX and Fetch, and utilized modern ES6+ features for code efficiency."
       },
       {
         "name": "React",
         "level": "Intermediate",
-        "experience": "2 years",
+        "experience": "1 year ",
         "skillsInAction": "Developed interactive UIs with React components, managed application state using hooks and context, and integrated with RESTful APIs."
       },
       
       {
         "name": "Bootstrap",
         "level": "Intermediate",
-        "experience": "3 years",
+        "experience": "1 year",
         "skillsInAction": "Utilized Bootstrap to quickly design responsive and mobile-first web pages."
       },
       {
         "name": "Tailwind CSS",
         "level": "Intermediate",
-        "experience": "2 years",
+        "experience": "1 year",
         "skillsInAction": "Applied utility-first CSS framework to create custom, responsive designs efficiently."
       }
     ],
